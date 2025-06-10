@@ -31,3 +31,5 @@ ssh-add -l 2> /dev/null
 if [[ $? -gt 1 ]]; then
   eval $(ssh-agent)
 fi
+#set editor to vim
+export EDITOR=vim
